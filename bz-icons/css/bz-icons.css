@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'bz-icons';
-  src:  url('../fonts/bz-icons.eot?y8x2ik');
-  src:  url('../fonts/bz-icons.eot?y8x2ik#iefix') format('embedded-opentype'),
-    url('../fonts/bz-icons.ttf?y8x2ik') format('truetype'),
-    url('../fonts/bz-icons.woff?y8x2ik') format('woff'),
-    url('../fonts/bz-icons.svg?y8x2ik#bz-icons') format('svg');
+  src:  url('../fonts/bz-icons.eot?tevdq9');
+  src:  url('../fonts/bz-icons.eot?tevdq9#iefix') format('embedded-opentype'),
+    url('../fonts/bz-icons.ttf?tevdq9') format('truetype'),
+    url('../fonts/bz-icons.woff?tevdq9') format('woff'),
+    url('../fonts/bz-icons.svg?tevdq9#bz-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="bzi-"], [class*="bzi-"] {
+[class^="bzi-"], [class*=" bzi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'bz-icons' !important;
   speak: none;
@@ -222,6 +222,9 @@
 .bzi-logo-fb:before {
   content: "\e934";
 }
+.bzi-logo-fb-alt:before {
+  content: "\e982";
+}
 .bzi-logo-ggl:before {
   content: "\e935";
 }
@@ -234,6 +237,9 @@
 .bzi-logo-twtr:before {
   content: "\e937";
 }
+.bzi-logo-twtr-alt:before {
+  content: "\e983";
+}
 .bzi-magnifier:before {
   content: "\e938";
 }
@@ -242,6 +248,9 @@
 }
 .bzi-menu:before {
   content: "\e93a";
+}
+.bzi-menu-alt:before {
+  content: "\e984";
 }
 .bzi-merchandise:before {
   content: "\e93b";
@@ -308,6 +317,9 @@
 }
 .bzi-remove:before {
   content: "\e94b";
+}
+.bzi-remove-alt:before {
+  content: "\e985";
 }
 .bzi-rotate-left:before {
   content: "\e94c";
